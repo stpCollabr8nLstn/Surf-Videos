@@ -1,0 +1,21 @@
+.sv--search {
+  margin: rem(16px);
+}
+
+.sv--search__input {
+  width: 100%;
+  height: rem(32px);
+  border: none;
+  border-bottom: rem(2px) solid $wave-dark;
+  font-size: rem(16px);
+  
+  &:focus {
+    outline: none;
+  }
+
+
+  &::placeholder {
+
+    color: $mid-gray;
+  }
+}

@@ -1,0 +1,23 @@
+.sv--nav-logo {
+  height: 80px;
+}
+
+.sv--nav-header {
+  background: linear-gradient(to left top, $wave-dark, $wave-mid, $wave-light);
+  height: 150px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sv--nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sv--nav-title {
+  font-size: rem(32px);
+  letter-spacing: rem(4px);
+}

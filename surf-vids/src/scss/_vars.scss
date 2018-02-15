@@ -1,0 +1,12 @@
+// Colors
+$wave-dark: #1965BF;
+$wave-mid: #02A8F5;
+$wave-light: #B2F1F0;
+$mid-gray: #778899;
+
+// Helper Functions
+@function rem($pxVal) {
+  @return ($pxVal / 16px) * 1rem;
+}
+
+// Mixins
