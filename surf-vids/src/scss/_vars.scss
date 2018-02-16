@@ -2,7 +2,10 @@
 $wave-dark: #1965BF;
 $wave-mid: #02A8F5;
 $wave-light: #B2F1F0;
-$mid-gray: #778899;
+$light-gray: #777381;
+$mid-gray: #404749;
+$text: #030C22;
+
 
 // Helper Functions
 @function rem($pxVal) {
@@ -10,3 +13,21 @@ $mid-gray: #778899;
 }
 
 // Mixins
+
+// Breakpoints
+// https://gist.github.com/davidgilbertson/ad24b42b0eddde2dc6b1b51f9460af11#file-css-breakpoint-mixins-scss
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}

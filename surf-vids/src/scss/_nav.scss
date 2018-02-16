@@ -4,12 +4,16 @@
 
 .sv--nav-header {
   background: linear-gradient(to left top, $wave-dark, $wave-mid, $wave-light);
-  height: 150px;
-  padding: 20px;
+  height: rem(80px);
+  padding: rem(20px);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include for-desktop-up {
+    height: rem(150px);
+  }
 }
 
 .sv--nav-link {
@@ -20,4 +24,14 @@
 .sv--nav-title {
   font-size: rem(32px);
   letter-spacing: rem(4px);
+  -webkit-text-stroke: rem(.5px) $text;
+  font-weight: 600;
+
+  @include for-tablet-portrait-up {
+    font-size: rem(48px);
+  }
+
+  @include for-desktop-up {
+    font-size: rem(64px);
+  }
 }
