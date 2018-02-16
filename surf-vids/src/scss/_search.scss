@@ -22,8 +22,8 @@
   height: rem(2px);
   background: linear-gradient(to right, $wave-dark, $wave-mid, $wave-light );
   background-size: 400% 400%;
-  -webkit-animation: lineAnimation 15s ease infinite;
-  animation: lineAnimation 15s ease infinite;
+  -webkit-animation: lineAnimation 5s ease infinite;
+  animation: lineAnimation 5s ease infinite;
 
   @include for-desktop-up {
     top: rem(240px);
