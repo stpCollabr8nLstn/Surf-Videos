@@ -1,0 +1,18 @@
+.sv--vid-card-container {
+  padding: rem(32px) rem(16px);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: rem(8px) rem(8px);
+  justify-items: stretch;
+  align-items: baseline;
+  justify-content: space-around;
+
+  @include for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr;
+  };
+
+  @include for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  };
+}

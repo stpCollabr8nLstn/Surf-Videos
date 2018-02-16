@@ -1,7 +1,3 @@
-.sv--search {
-  margin: rem(16px);
-}
-
 .sv--search__input {
   width: calc(100% - 32px);
   height: rem(32px);
@@ -54,4 +50,8 @@
 		stroke-width: 2;
 		stroke-linecap: square;
 	}
+
+  &:hover {
+    cursor: pointer;
+  }
 }

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-import Search from './Search';
+import Content from './Content';
+import Footer from './Footer';
 
-class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div className="sv--home">
         <Nav></Nav>
-        <Search></Search>
+        <Content></Content>
+        <Footer></Footer>
       </div>
     );
   }
 }
-
-export default Home;

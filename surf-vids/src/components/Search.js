@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-class Search extends Component {
-
+export default class Search extends Component {
   static defaultProps = {
     disabled: false,
     type: 'text',
@@ -53,5 +52,3 @@ class Search extends Component {
     );
   }
 }
-
-export default Search;

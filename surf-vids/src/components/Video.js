@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class VideoDetail extends Component {
+export default class Video extends Component {
 
   static defaultProps = {
   };
@@ -15,8 +15,8 @@ export default class VideoDetail extends Component {
 
   render() {
     return (
-      <div className="sv--video-details">
-        Video Title!
+      <div className="sv--video">
+        Video!
       </div>
     );
   }

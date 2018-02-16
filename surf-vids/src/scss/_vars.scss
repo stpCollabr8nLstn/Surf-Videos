@@ -13,6 +13,9 @@ $text: #030C22;
 }
 
 // Mixins
+@mixin border-radius {
+  border-radius: rem(4px);
+};
 
 // Breakpoints
 // https://gist.github.com/davidgilbertson/ad24b42b0eddde2dc6b1b51f9460af11#file-css-breakpoint-mixins-scss
